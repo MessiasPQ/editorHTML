@@ -24,7 +24,7 @@ namespace EditorHTML
             var strong = new Regex(@"<\s*strong[^>]*>(.*?)<s\*/\s*strong>");
             var words = text.Split(' ');
 
-            for (var i = 0; i <= words.Length; i++)
+            for (var i = 0; i < words.Length; i++)
             {
                 if (strong.IsMatch(words[i]))
                 {
