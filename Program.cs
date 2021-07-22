@@ -6,7 +6,7 @@ namespace EditorHTML
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Editor HTML");
+            Menu.Show();
         }
     }
 }
