@@ -21,7 +21,7 @@ namespace EditorHTML
 
         public static void Replace(string text)
         {
-            var strong = new Regex(@"<\s*strong[^>]*>(.*?)<s\*/\s*strong>");
+            var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/\s*strong>");
             var words = text.Split(' ');
 
             for (var i = 0; i < words.Length; i++)
